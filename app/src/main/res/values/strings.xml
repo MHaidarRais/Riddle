@@ -1,3 +1,46 @@
 <resources>
     <string name="app_name">Riddle</string>
+    <string name="jawaban_cerita_bocah">Sebenernya waktu si anak mengacungkan jarinya, TV masih dalam keadaan mati. Baca lagi kalimat “ketika aku akan menyalakan televisi” nah jadi yang akan mati 3 hari kedepan itu si Ibu</string>
+    <string name="jawaban_cerita_makanmalam">Si ‘aku’ juga ikut ajaran agama itu, buktinya dia nebak pertama daging yang dihidangin itu daging manusia tapi setelah itu dia sadar kalau bukan daging manusia.</string>
+    <string name="jawaban_cerita_perampokan">Sebenernya si istri mau bunuh suaminya, dia udah nyiapin senjata dan waktu pintu dibuka si istri ngira itu suaminya tapi ternyata perampok. Baca lagi kalimat “ketika aku mendengar bel ppintu berbunyi, kukira itu kamu, tetapi ternyata adalah perampok bertopeng yang langsung masuk segera setelah aku membuka pintu”</string>
+    <string name="jawaban_cerita_dokter">Si aku membunuh teman sekamarnya buat latihan otopsi buat keesokan harinya. Jadi temen sekamarnya itu udah mati.</string>
+    <string name="jawaban_cerita_berburu">Sebenernya ada yang aneh, tapi si aku gak menyadari. Di awal kan udah dijelasin kalo mereka itu cuman bertiga. Aku dan dua temannya. Tapi pas si aku nanya “Aku tidak melihat satupun hal yang aneh, bagaimana dengan kalian?”
+
+Yang jawab ada 3 orang padahal kan cuman dia sama dua temennya…
+
+“Aku tidak”
+“Aku juga tidak”
+“Aku tidak melihat apapun”
+
+Berarti yang satu orang lagi hantu yang matanya dicongkel yang bilang “Aku tidak melihat apapun”</string>
+    <string name="jawaban_cerita_website">Waktu dia mau kekamar mandi si aku hidupin semua lampu, tapi pas dia dateng lampunya mati dan ada kucing. Kemungkinan pertama si kucing yang matiin. Kemungkinan kedua kucingnya cuman lewat(?)</string>
+    <string name="jawaban_cerita_liburan">Di US dan UK penyebutan lantai nya berbeda
+Di US lantai pertama disebut first floor, kedua : second floor
+
+Di UK lantai pertama disebut Ground floor, lantai kedua : first floor dst.
+
+Jadi yang teriak di luar itu sebenernya mau ngasih tau si aku bahwa sebenernya pembunuhannya di Second floor (lantai ketiga karena mereka ada di London) lantai ketiga itu tempat si aku menginap.
+
+Polisi yang memblokade lift dan tangga itu sebenernya adalah pembunuhnya. Dia blok tangga sama lift supaya nggak ada polisi yang naik dan nangkap dia
+
+</string>
+   
+   
+
+
+
+    <string name="cerita_website">Aku sangat ketakutan semalam, setelah aku membaca cerita yang sangat menakutkan pada suatu website. Yang lebih parah lagi aku sendirian di rumah karena orang tuaku pergi ke luar kota. Jadi, Aku menyalakan lampu di kamarku dan pada seluruh koridor yang menuntunku menuju kamar mandi, itu membuatku merasa lebih baik. Ketika aku selesai mandi dan kembali. Aku menyalakan lampu kamarku, dan pada saat bersamaan seekor kucing melompat ke atap rumahku dan membuat suara gaduh di dekat jendela kamarku. Hal itu membuatku terkaget-kaget.</string>
+    <string name="cerita_liburan">Aku dan isteriku menghabiskan liburan panjang kami untuk berlibur ke Inggris. Suatu perjalanan panjang yang harus kami tempuh dari New York menuju ke London. Kami menginap di suatu hotel di pinggiran kota untuk melepas lelah usai perjalanan. Pada malam harinya di saat kami tidur, kami terbangun oleh suara bising dari luar. Aku melihat ke luar jendela dan mendapati bahwa banyak polisi di luar sana. Mereka berteriak kepadaku bahwa telah terjadi sebuah perampokan dan pembunuhan pada lantai dua. Aku menginap di lantai tiga, dan melihat polisi telah memblokade lift dan tangga. Si pembunuh terjebak dan tidak akan bisa turun ataupun naik ke lantai atas, jadi kami tidak berada dalam bahaya. Aku dan istriku akan kembali tidur. Aku berharap polisi dapat menangkap pembunuh tersebut.</string>
+    <string name="cerita_berburu">Pada suatu malam aku diajak oleh kedua temanku untuk berburu hantu di sebuah rumah tua dimana dulunya pernah terjadi pembunuhan. “Aku dengar si pembunuh menjagal orang-orang ini” kata salah satu temanku. “Pasti arwah mereka benar-benar marah”
+“Ya, aku dengar ini adalah pembantaian massal” sahut temanku yang lain. “Rupanya, si pembunuh mencongkel mata sang suami dan membacok sang istri dengan pisau yang besar. Kemudian dia mencekik anak-anaknya hingga tewas.”. “Apakah kalian benar-benar serius?” tanyaku, “atau kalian hanya menakut-nakutiku saja? Kalian tau betapa takutnya aku terhadap hantu.”
+Pintu depan pun kami buka, kami berjalan sambil berpegangan tangan karena di dalam sana gelap total dan kami hanya berbekal satu lampu senter. Kami menelusuri ruang tamu dan dapur, kemudian turun ke ruang bawah tanah dimana pembunuhan keji tersebut terjadi. Kami masih bisa melihat dengan jelas darah bercipratan di tembok. Tempat ini memang benar-benar mengerikan, tapi kami tidak melihat satupun kejanggalan atau sesuatu yang aneh. Pada saat keluar dari ruang bawah tanah, aku bertanya kepada temanku.
+“Aku tidak melihat satupun hal yang aneh, bagaimana dengan kalian?”
+“Aku tidak”
+“Aku juga tidak”
+“Aku tidak melihat apapun”
+Jadi memang benar-benar tidak ada hantu, aku merasa lega.</string>
+    <string name="cerita_Dokter">Belajar untuk menjadi seorang dokter benar-benar memerlukan kerja keras, tetapi saya mendapatkan nilai sempurna pada tes otopsi pada hari Jum’at lalu. Tetapi semua itu berkat bantuan dari teman sekamar saya. Aku berharap dapat berterimakasih kepadanya, tetapi dia sudah tidak mungkin bertemu aku lagi.</string>
+    <string name="cerita_bocah">Akhir-akhir ini aku mendapati bahwa anakku memiliki kemampuan aneh. Ia memiliki kebiasaan mengacungkan jarinya pada wajah seseorang sewaktu-waktu. Suamiku dan aku menyadari bahwa, jika anakku mengacungkan jarinya pada wajah seseorang seperti itu, berarti orang tersebut akan meninggal tiga hari kemudian. Tahun lalu ia mengacungkan jarinya pada kakeknya, dan pada tiga hari kemudian kakeknya meninggal karena serangan jantung. Beberapa bulan yang lalu, dia mengacungkan jarinya pada aktris terkenal yang ada di majalah. Tiga hari kemudian aktris tersebut meninggal dalam kecelakaan mobil. Hari ini, ketika aku akan menyalakan televisi, anakku mengacungkan jarinya tepat kearah layar. Ketika kunyalakan televisinya, terlihat di layar bahwa Presiden sedang menyampaikan pidatonya. Aku tidak percaya bahwa Presiden akan meninggal pada tiga hari kedepan, tetapi prediksi anakku memang tidak pernah meleset.</string>
+    <string name="cerita_makanmalam">Beberapa hari yang lalu, aku diajak temanku untuk makan malam dirumahnya. Hal yang menurutku aneh adalah, baru-baru ini ia terlibat pada sebuah ajaran agama yang aneh. Sesampainya disana, dia menyuguhiku dengan berbagai macam daging, tetapi ia tidak memberitahuku daging apa itu. Itu sedikit membuatku ragu. Aku mengira bahwa itu adalah daging manusia, tetapi setelah aku memakannya, aku langsung menyadari bahwa itu bukanlah daging manusia.</string>
+    <string name="cerita_perampokan">Pada suatu malam isteriku diserang oleh seorang perampok ketika aku sedang dalam perjalanan pulang sehabis lelah bekerja. Isteriku langsung menusuk perampok tersebut dengan pisau yang sedang dibawanya dan membunuhnya. Setelah menyelidiki kasus penusukan tersebut, Polisi menyatakan bahwa itu adalah perlindungan diri yang dilakukan oleh wanita tersebut. Ketika aku akan menjemputnya dari kantor polisi, dia mengatakan, “Ketika aku mendengar bel pintu kupikir itu adalah kamu, tetapi ternyata adalah perampok bertopeng yang langsung masuk segera setelah aku membuka pintu!” sambil memeluknya dengan erat, aku mengatakan “Kau pasti sangat ketakutan, paling tidak sekarang kau aman”.</string>
 </resources>

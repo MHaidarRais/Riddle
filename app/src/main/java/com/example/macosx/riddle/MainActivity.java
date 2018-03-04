@@ -11,8 +11,17 @@ public class MainActivity extends AppCompatActivity {
 
     RecyclerView rvDaftar;
 
-    String[] namaBuah= {"Kemampuan Anak ku","Makan Malam", "Kemalingan",};
-    int[] gambarBuah = {R.drawable.child,R.drawable.dinner,R.drawable.robb};
+    String[] namaBuah= {"Kemampuan Anak ku","Makan Malam",
+                        "Perampokan","Selangkah Menjadi Dokter",
+                        "Berburu Hantu","Cerita Website","Liburan Panjang"};
+    int[] gambarBuah = {R.drawable.child,R.drawable.dinner,R.drawable.robb,
+                        R.drawable.dokter,R.drawable.school,R.drawable.website,R.drawable.hotel};
+    int[] detail = {R.string.cerita_bocah,R.string.cerita_makanmalam,
+                    R.string.cerita_perampokan,R.string.cerita_Dokter,
+                    R.string.cerita_berburu,R.string.cerita_website,R.string.cerita_liburan};
+    int[] jawaban = {R.string.jawaban_cerita_bocah,R.string.jawaban_cerita_makanmalam,
+                    R.string.jawaban_cerita_perampokan,R.string.jawaban_cerita_dokter,
+                    R.string.jawaban_cerita_berburu,R.string.jawaban_cerita_website,R.string.jawaban_cerita_liburan};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         rvDaftar = findViewById(R.id.rvDaftar);
 
-        RecyclerDaftarAdapter adapter = new RecyclerDaftarAdapter(this, namaBuah,gambarBuah);
+        RecyclerDaftarAdapter adapter = new RecyclerDaftarAdapter(this, namaBuah,gambarBuah,detail,jawaban);
 
 
 

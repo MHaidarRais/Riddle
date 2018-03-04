@@ -17,11 +17,15 @@ public class RecyclerDaftarAdapter extends RecyclerView.Adapter<RecyclerDaftarAd
     Context context;
     String[] nama;
     int[] gambar;
-    public RecyclerDaftarAdapter(Context context,  String[] nama, int[] gambar) {
+    int[] detail;
+    int[] jawaban;
+    public RecyclerDaftarAdapter(Context context,  String[] nama, int[] gambar, int[] detail, int[] jawaban) {
         this.context = context;
 
        this.nama = nama;
        this.gambar = gambar;
+       this.detail = detail;
+       this.jawaban = jawaban;
 
     }
 
@@ -39,6 +43,7 @@ public class RecyclerDaftarAdapter extends RecyclerView.Adapter<RecyclerDaftarAd
 // set nilai ke widget
         holder.ivGambarBuah.setImageResource(gambar[position]);
         holder.tvNamaBuah.setText(nama[position]);
+
 //beri event onClick
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,6 +52,8 @@ public class RecyclerDaftarAdapter extends RecyclerView.Adapter<RecyclerDaftarAd
                 Intent intent = new Intent(context, DetailActivity.class);
                 intent.putExtra("NM_BUAH", nama[position]);
                 intent.putExtra("GB_BUAH", gambar[position]);
+                intent.putExtra("detail_buah", detail[position]);
+                intent.putExtra("Jawaban",jawaban[position]);
                 context.startActivity(intent);
             }
         });
