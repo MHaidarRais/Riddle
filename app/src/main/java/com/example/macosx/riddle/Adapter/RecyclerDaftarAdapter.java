@@ -36,14 +36,14 @@ public class RecyclerDaftarAdapter extends RecyclerView.Adapter<RecyclerDaftarAd
 
     @Override
     public void onBindViewHolder(BuahViewHolder holder, final int position) {
-        // set nilai ke widget
+// set nilai ke widget
         holder.ivGambarBuah.setImageResource(gambar[position]);
         holder.tvNamaBuah.setText(nama[position]);
-        //beri event onClick
+//beri event onClick
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //pindah ke activity detail
+//pindah ke activity detail
                 Intent intent = new Intent(context, DetailActivity.class);
                 intent.putExtra("NM_BUAH", nama[position]);
                 intent.putExtra("GB_BUAH", gambar[position]);
@@ -65,9 +65,9 @@ public class RecyclerDaftarAdapter extends RecyclerView.Adapter<RecyclerDaftarAd
 
         public BuahViewHolder(View itemView) {
             super(itemView);
-            //inisialisasi
-            ivGambarBuah = itemView.findViewById(R.id.ivGambarBuah);
-            tvNamaBuah = itemView.findViewById(R.id.tvNamaBuah);
+//inisialisasi
+            ivGambarBuah = itemView.findViewById(R.id.imgBuah);
+            tvNamaBuah = itemView.findViewById(R.id.txtNamaBuah);
 
         }
     }
