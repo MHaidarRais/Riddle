@@ -1,5 +1,6 @@
 package com.example.macosx.riddle;
 
+import android.support.v4.view.GestureDetectorCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -8,6 +9,8 @@ import android.support.v7.widget.RecyclerView;
 import com.example.macosx.riddle.Adapter.RecyclerDaftarAdapter;
 
 public class MainActivity extends AppCompatActivity {
+
+
 
     RecyclerView rvDaftar;
 
@@ -34,10 +37,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
+
+
+
+
+
         rvDaftar = findViewById(R.id.rvDaftar);
 
-        RecyclerDaftarAdapter adapter = new RecyclerDaftarAdapter(this, namaBuah,gambarBuah,detail,jawaban);
-
+        RecyclerDaftarAdapter adapter = new RecyclerDaftarAdapter(this, namaBuah,gambarBuah,detail,jawaban, this);
 
 
         //set adapter ke widget
