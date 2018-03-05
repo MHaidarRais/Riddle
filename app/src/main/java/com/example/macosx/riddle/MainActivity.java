@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity {
                         "Kisah Sang Tentara","Email Terakhir","Perampokan Bank"};
     int[] gambarBuah = {R.drawable.child,R.drawable.dinner,R.drawable.robb,
                         R.drawable.dokter,R.drawable.school,R.drawable.website,R.drawable.hotel,
-                        R.drawable.ic_launcher_background,R.drawable.ic_launcher_background,R.drawable.ic_launcher_background,
-                        R.drawable.ic_launcher_background};
+                        R.drawable.jail,R.drawable.tentara,R.drawable.email,
+                        R.drawable.robbery};
     int[] detail = {R.string.cerita_bocah,R.string.cerita_makanmalam,
                     R.string.cerita_perampokan,R.string.cerita_Dokter,
                     R.string.cerita_berburu,R.string.cerita_website,R.string.cerita_liburan,R.string.cerita_penjara,
